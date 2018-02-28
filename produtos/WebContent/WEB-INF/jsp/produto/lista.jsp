@@ -5,6 +5,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <head>
 <script type="text/javascript" src="<c:url value="/js/jquery.js"/>"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -33,10 +34,14 @@
 		<c:forEach var="p" items="${produtoList}" varStatus="st">
 
 			<tr id="produto${p.id}">
-				<td>${p.nome}</td>
-				<td>${p.preco}</td>
+				<td>${p.nome.toUpperCase()}</td>
+				<td>
+					<fmt:formatNumber value="${p.preco}" type="currency"/>
+				</td>
 				<td>${p.descricao}</td>
-				<td>${p.dataInicioVenda.time}</td>
+				<td>
+					<fmt:formatDate value="${p.dataInicioVenda.time}" pattern="dd/MM/yyyy" />
+				</td>
 				<c:choose>
 					<c:when test="${p.usado}">
 						<td>Sim</td>
@@ -51,7 +56,7 @@
 		</c:forEach>
 
 	</table>
-	<c:url value="/produto/formulario" var="urlAdicionar"/>
+	<c:url value="/produto/formulario" var="urlAdicionar" />
 	<a href="${urlAdicionar}">Adicionar um produto</a>
 </body>
 </html>
