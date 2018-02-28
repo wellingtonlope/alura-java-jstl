@@ -59,5 +59,7 @@
 	</table>
 	<c:url value="/produto/formulario" var="urlAdicionar" />
 	<a href="${urlAdicionar}"><fmt:message key="mensagem.novoProduto"/></a>
+	
+	<c:import url="../_comum/radape.jsp"/>
 </body>
 </html>
