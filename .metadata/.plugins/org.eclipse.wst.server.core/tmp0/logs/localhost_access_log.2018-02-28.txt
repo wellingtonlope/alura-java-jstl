@@ -1,0 +1,8 @@
+127.0.0.1 - - [28/Feb/2018:11:35:31 -0400] "GET / HTTP/1.1" 404 1074
+127.0.0.1 - - [28/Feb/2018:11:35:32 -0400] "GET /produtos/ HTTP/1.1" 302 -
+127.0.0.1 - - [28/Feb/2018:11:35:33 -0400] "GET /produtos/login/formulario HTTP/1.1" 200 504
+127.0.0.1 - - [28/Feb/2018:11:35:33 -0400] "GET /favicon.ico HTTP/1.1" 404 1085
+127.0.0.1 - - [28/Feb/2018:11:35:51 -0400] "GET /produtos/login/autentica?usuario.login=teste&usuario.senha=teste HTTP/1.1" 302 -
+127.0.0.1 - - [28/Feb/2018:11:35:51 -0400] "GET /produtos/produto/lista HTTP/1.1" 200 1712
+127.0.0.1 - - [28/Feb/2018:11:35:51 -0400] "GET /produtos/js/jquery.js HTTP/1.1" 200 57254
+127.0.0.1 - - [28/Feb/2018:11:35:51 -0400] "GET /favicon.ico HTTP/1.1" 404 1085
