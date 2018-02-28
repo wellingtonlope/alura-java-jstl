@@ -16,3 +16,9 @@
 0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:43:45 -0400] "GET /produtos/login/autentica;jsessionid=364BA29DD8670C6AE4AA183101F05E0C?usuario.login=teste&usuario.senha=teste HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:43:45 -0400] "GET /produtos/produto/lista HTTP/1.1" 200 1861
 0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:43:45 -0400] "GET /produtos/js/jquery.js HTTP/1.1" 200 57254
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:48:05 -0400] "GET /produtos/produto/lista HTTP/1.1" 200 1897
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:51:51 -0400] "GET /produtos/produto/lista HTTP/1.1" 200 1899
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:51:52 -0400] "GET /produtos/produto/formulario HTTP/1.1" 200 947
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:51:52 -0400] "GET /produtos/css/jquery.css HTTP/1.1" 200 27528
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:51:52 -0400] "GET /produtos/js/jquery-ui.js HTTP/1.1" 200 53069
+0:0:0:0:0:0:0:1 - - [28/Feb/2018:11:51:52 -0400] "GET /produtos/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png HTTP/1.1" 200 90
